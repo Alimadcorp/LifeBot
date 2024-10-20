@@ -1,6 +1,5 @@
 const express = require("express");
 const http = require("http");
-const keep_alive = require("./keep_alive.js");
 const mineflayer = require('mineflayer')
 const pvp = require('mineflayer-pvp').plugin
 const { pathfinder, Movements, goals} = require('mineflayer-pathfinder')
